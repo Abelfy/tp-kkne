@@ -1,7 +1,14 @@
+/***
+* Auteur : Adrien BELFY
+*
+*/
+
+
 const inputA = document.getElementById("A");
 const inputB = document.getElementById("B");
 const answer = document.getElementById("answer");
 console.log(inputA.value, ",", inputB.value);
+
 
 function additionner() {
     const valueA = parseFloat(inputA.value, 10);
