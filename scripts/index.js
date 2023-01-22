@@ -26,7 +26,7 @@ function multiplier() {
         console.log(`Je passe dans la boucle ${i} fois`);
         answerCalcul += valueA;   
     }
-    
+
     answer.textContent = answerCalcul;
 }
 
@@ -44,4 +44,11 @@ function diviser() {
         answerCalcul = valueA / valueB;
     }
     answer.textContent = answerCalcul;
+}
+
+
+function reset() {
+    inputA.value = "";
+    inputB.value = "";
+    answer.textContent = "";
 }
