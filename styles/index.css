@@ -1,0 +1,9 @@
+.btn {
+    border-radius: 0.5em;
+    background-color: #228866;
+    color: #000;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
